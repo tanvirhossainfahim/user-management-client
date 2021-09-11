@@ -1,0 +1,40 @@
+
+.paginationBttns {
+    list-style: none;
+    display: flex;
+  }
+  .showPassword input{
+      outline: none !important;
+      border: none !important;
+      margin: 3px;
+  }
+  .showpassword input[type=password]{
+    background-color: none !important;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .paginationBttns a {
+    padding: 7px;
+    margin-right: 3px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.603);
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2fffc5;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2fffc5;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    /* background-color: grey; */
+  }
