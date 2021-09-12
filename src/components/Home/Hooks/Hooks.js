@@ -3,18 +3,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
 const usePasswordToggle = () => {
-    const [visible, setVisiblity] = useState(false);
+  const [visible, setVisiblity] = useState(false);
 
-    const Icon = (
-        <FontAwesomeIcon
-            icon={visible? faEyeSlash : faEye}
-            onClick={() => setVisiblity(visiblity => !visiblity)}
-        />
-    );
+  const Icon = (
+    <FontAwesomeIcon
+      icon={visible ? faEyeSlash : faEye}
+      onClick={() => setVisiblity((visiblity) => !visiblity)}
+    />
+  );
 
-    const InputType = visible ? "text" : "password";
+  const InputType = visible ? "text" : "password";
 
-    return [InputType, Icon];
+  return [InputType, Icon];
 };
 
 export default usePasswordToggle;
