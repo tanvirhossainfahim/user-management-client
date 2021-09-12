@@ -5,7 +5,7 @@ import UserForm from "../UserForm/UserForm";
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: "#fff" }}>
+    <div style={{ backgroundColor: "white" }}>
       <Header />
       <UserForm />
       <UserData />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const NavBar = () => {
   const [isSticky, setSticky] = useState(false);
@@ -27,7 +28,7 @@ const NavBar = () => {
     >
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <strong class="colornav">Suffix IT LTD.</strong>
+          <strong class="colornav">SUFFIX IT LTD.</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           onClick={() => setCollapsed(!isCollapsed ? "show" : null)}

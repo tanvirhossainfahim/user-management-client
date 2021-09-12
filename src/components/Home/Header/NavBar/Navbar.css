@@ -1,0 +1,10 @@
+.colornav {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-top: 10px;
+}
+.colornav:hover {
+  border-bottom: 3px solid rgb(255, 102, 0);
+  padding: 10px;
+  color: rgb(43, 226, 150);
+}

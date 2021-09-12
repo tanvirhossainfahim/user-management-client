@@ -89,7 +89,7 @@ const UserForm = (props) => {
         <div className="mb-3">
           <input
             className="form-control"
-            style={{ backgroundColor: "#0075FF", color: "#FFFFFF" }}
+            style={{ backgroundColor: "tomato", color: "#000" }}
             type="submit"
             value="Create User"
           />
