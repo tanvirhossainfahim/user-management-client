@@ -25,9 +25,9 @@ const NavBar = () => {
           : "slide out show navbar-expand-sm navbar-light py-2 fixed-top "
       }
     >
-      <Container >
+      <Container>
         <Navbar.Brand as={Link} to="/">
-          <strong class="colornav">Suffix IT Limited</strong>
+          <strong class="colornav">Suffix IT LTD.</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           onClick={() => setCollapsed(!isCollapsed ? "show" : null)}
@@ -43,7 +43,7 @@ const NavBar = () => {
               <strong class="colornav">About</strong>
             </Nav.Link>
             <Nav.Link href="/" className="mr-5 h5 nav-link">
-              <strong class="colornav">Contact</strong>
+              <strong class="colornav">Contact Us</strong>
             </Nav.Link>
             <Nav.Link as={Link} to="/" className="mr-5 h5 nav-link">
               <strong class="colornav">Users</strong>
