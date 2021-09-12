@@ -14,7 +14,7 @@ const UserForm = (props) => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    const url = "";
+    const url = "https://user-mange.herokuapp.com/auth/register";
     axios.post(url, data).then((res) => {
       if (res) {
         // toast.dismiss(loading);
