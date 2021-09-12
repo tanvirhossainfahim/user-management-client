@@ -32,7 +32,7 @@ const UserData = () => {
   const faArrowRight = <FontAwesomeIcon icon={faArrowAltCircleRight} />;
 
   useEffect(() => {
-    const url = "https://users-authentication.herokuapp.com/auth/all-users";
+    const url = "";
     axios.get(url).then((data) => {
       setAllUser(data.data);
       setLoading(true);
