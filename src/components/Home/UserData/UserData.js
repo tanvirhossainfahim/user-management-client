@@ -49,7 +49,7 @@ const UserData = () => {
     }).then((wantDelete) => {
       if (wantDelete) {
         axios
-          .delete(`https://users-authentication.herokuapp.com/user/${id}`)
+          .delete(``)
           .then((res) => {
             if (res.data) {
               return swal(
