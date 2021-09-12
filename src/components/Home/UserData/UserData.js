@@ -32,7 +32,7 @@ const UserData = () => {
   const faArrowRight = <FontAwesomeIcon icon={faArrowAltCircleRight} />;
 
   useEffect(() => {
-    const url = "";
+    const url = "https://users-authentication.herokuapp.com/auth/all-users";
     axios.get(url).then((data) => {
       setAllUser(data.data);
       setLoading(true);
@@ -49,7 +49,7 @@ const UserData = () => {
     }).then((wantDelete) => {
       if (wantDelete) {
         axios
-          .delete(``)
+          .delete(`https://users-authentication.herokuapp.com/user/${id}`)
           .then((res) => {
             if (res.data) {
               return swal(
